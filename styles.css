@@ -1,0 +1,48 @@
+/*.container {
+    display: flex;
+}*/
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+}
+
+.header p {
+    margin: 2px;
+    font-size: .75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline;
+}
+
+.menu li {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+
+.hamburger-menu {
+    border: 1px dotted orange;
+}
+
+.hamburger-image {
+    
+}
