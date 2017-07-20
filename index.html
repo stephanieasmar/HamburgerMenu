@@ -4,29 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <title>HAMBURGER MENU</title>
-        <link rel="stylesheet" type="text/css" href="styles.css"> 
+        <title>LOTTERY APP</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
     </head>
     <body>
         <header>
-            <h1>Hamburger Menu</h1>
+            <h1>LOTTERY APP</h1>
             <nav>
                 <div href="#" class="hamburger">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
-                <ul class="clearfix-menu">
+                <ul class="clearfixMenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Numbers</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <p></p>
-
-        <script src="HamburgerMenu/main.js"></script>
+        <div class="lotteryNumberContainer">
+            <div class="fiveNumbers"></div>
+            <div class="twoNumbers"></div>
+        </div>
+        <div class="pickNumberButton">
+            <button>Quick Pick</button>
+        </div>
+        <!--<footer>
+            <div class="copyright">
+                <p>Stephanie Asmar</p>
+            </div>
+        </footer>-->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="scripts/main.js"></script>
     </body>
 </html>
