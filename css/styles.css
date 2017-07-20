@@ -1,0 +1,138 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*border: 2px solid black;*/
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /*border:  2px solid red;*/
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.line {
+    border-bottom: 4px;
+    width: 35px;
+    margin-bottom: 6px;
+    border: 2px solid white;
+}
+
+.clearfixMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.clearfixMenu li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.lotteryNumberContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin: 50px;
+
+}
+
+.fiveNumbers {
+    /*border: 1px solid red;*/
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+
+}
+
+.twoNumbers {
+    /*border: 1px solid purple;*/
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+}
+
+.pickNumberButton {
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 1em;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: gray;
+    font-size: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+}
+
+
+
+
+
+/**************************************M E D I A***Q U E R I E S***********************************/
+
+
+@media only screen and (max-width: 500px) {
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+}
+
+    .line {
+        border-bottom: 4px;
+        width: 35px;
+        margin-bottom: 6px;
+}
+
+    .line:last-child {
+        margin-bottom: 0;
+}
+
+    new li {
+        width: 100%;
+    }
+
+}
+
+/**************************************M E D I A***Q U E R I E S***********************************/
